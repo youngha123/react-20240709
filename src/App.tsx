@@ -15,8 +15,8 @@ function App() {
       {/* <CurlyBraces /> */}
       {/* <Properties /> */}
       {/* <ConditionalRender /> */}
-      {/* <Example2 /> */}
-      <ListRender />
+      <Example2 />
+      {/* <ListRender /> */}
     </>
   );
 }
