@@ -32,9 +32,7 @@ const useStore = create<Stoer>((set) => ({
         address: '',
         // set 함수의 매개변수로는 현재 상태(store)를 받는 콜백함수를 전달
         // set 함수의 전달한 콜백함수는 변경된 상태(store)를 반환
-        setAddress: (address: string) => set((state) => 
-            ({ ...state, address})
-        )
+        setAddress: (address: string) => set((state) => ({ ...state, address}))
 }));
 
 export default function Zustand() {
